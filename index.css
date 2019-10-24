@@ -1,0 +1,86 @@
+body{
+    background-image: url('img/background.jpg');
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 0 auto;
+    padding: 40px;
+}
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+.cancel{
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: gray;
+  text-decoration: none;
+  padding: 5px;
+  width: 100px;
+  text-align: center;;
+}
+
+.text-align-center{
+  text-align: center;;
+}
+
+.text-align-left{
+  text-align:left;
+}
+
+.width100{
+  width: 100%;
+}
+
+.width70{
+  width: 70%;
+}
+
+.width50{
+  width: 50%;
+  height: auto;
+}
+
+.width30{
+  width: 30%;
+}
+
+.fontsize10{
+  font-size: 10px;
+}
+
+.padding-left{
+  padding-left: 30px;
+}
+
+.cardbox{
+  height: 500px;
+  margin-top: 0;
+}
